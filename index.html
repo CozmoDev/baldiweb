@@ -25,27 +25,29 @@
             border: none;
             overflow-y: auto;
             overflow-x: hidden;
+            align: center;
         }
       
         iframe.fullScreen {
-            width: 960px;
-            height: 600px;
-            position: absolute;
-            top: 0;
-            left: 0;
+            display: block;
+            width: 100%;
+            border: none;
+            overflow-y: auto;
+            overflow-x: hidden;
+            align: center;
         }  
     </style>
 </head>
   
 <body>
-    <center><iframe src="https://baldiweb.000webhostapp.com/"           
+    <iframe src="https://baldiweb.000webhostapp.com/"           
             frameborder="0" 
             marginheight="0" 
             marginwidth="0" 
             width="960px" 
             height="600px" 
             scrolling="auto">
-  </iframe><center>
+  </iframe>
   <script type="text/javascript" src="fs.js"></script>
   <button onclick="makeFullScreen()">Make Full Screen</button>
 </body>
