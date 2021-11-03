@@ -25,6 +25,14 @@
             overflow-y: auto;
             overflow-x: hidden;
         }
+      
+        iframe.fullScreen {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }  
     </style>
 </head>
   
@@ -37,7 +45,7 @@
             height="600px" 
             scrolling="auto">
   </iframe>
-  
+  <button onclick="makeFullScreen()">Make Full Screen</button>
 </body>
   
 </html>
