@@ -40,6 +40,14 @@
     <iframe src="https://baldiweb.000webhostapp.com/">
   </iframe>
   <script type="text/javascript" src="fs.js"></script>
+  <script>
+    let btn = document.createElement("button");
+    btn.innerHTML = "Fullscreen";
+    btn.addEventListener("click", function () {
+      makeFullScreen();
+    });
+    document.body.appendChild(btn);
+  </script>
 </body>
   
 </html>
