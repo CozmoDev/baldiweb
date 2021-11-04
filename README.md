@@ -1,6 +1,6 @@
 # baldiweb
 Baldi's Basics, ported for the web.
-URL for directly playing:
+## URL for directly playing:
 [Click Here](https://cozmo.thedev.id)
 
 ## NOTE:
