@@ -41,13 +41,11 @@
   </iframe>
   <script type="text/javascript" src="fs.js"></script>
   <script>
-    let btn = document.createElement("button");
-    btn.innerHTML = "Fullscreen";
-    btn.addEventListener("click", function () {
-      makeFullScreen();
-    });
-    document.body.appendChild(btn);
+    shortcut.add("ctrl+f11", function() {
+        // Do something
+    });   
   </script>
+  <p>Press CTRL and F11 at the same time for Fullscreen.</p>
 </body>
   
 </html>
