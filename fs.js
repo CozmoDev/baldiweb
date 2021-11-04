@@ -17,10 +17,3 @@ function makeFullScreen() {
     var elem = document.body;
     requestFullScreen(elem);
 }
-
-let btn = document.createElement("button");
-btn.innerHTML = "Fullscreen";
-btn.addEventListener("click", function () {
-  makeFullScreen();
-});
-document.body.appendChild(btn);
